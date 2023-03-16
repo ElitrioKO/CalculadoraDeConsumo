@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/JavaScript" src="components/motor.js">
+    </script>
+</head>
+<body>
+   <style>
+     .estilo{
+       margin-top: px;
+     }
+        h1 {
+  color: #36393e;
+  text-align: center;
+    background-color: #c2d5df;
+    margin-top: 250px;
+}
+       h2 {
+  color: Yellow;
+       }
+        body{
+                background-color: #36393e;
+  background-size:100%;
+}
+        </style>
+   <center>
+    <h1>
+        Calculadora de
+
+        Consumo
+    </h1>
+
+    <div class="estilo">
+	<input type="number" placeholder="Insira a km percorrida" id="km" step="0.1">
+    <input type="number" placeholder="Insira os litros percorridos" id="litros" step="0.1">
+    <input type="button" value="CALCULAR" onclick="calcularconsumo()">
+    </center>
+    <h1 id="resultado"></h1>
+    </div>
+</body>
+</html>
